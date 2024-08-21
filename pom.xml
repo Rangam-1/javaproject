@@ -12,12 +12,7 @@
         <junit.platform.version>1.2.0</junit.platform.version>
         <junit.jupiter.version>5.2.0</junit.jupiter.version>
         <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
-
-        <sonar.host.url>http://65.0.19.53:9000</sonar.host.url>
-        <sonar.organization>Sample</sonar.organization>
-        <sonar.projectKey>Sample</sonar.projectKey>
-        <sonar.login>sqp_a2548d353431e7648ac7b366f7adebab3a3e7a21</sonar.login>       
+        <maven.compiler.target>11</maven.compiler.target>       
 
     </properties>
 
@@ -26,13 +21,13 @@
         <repository>
             <id>release</id>
             <name>libs-release-local</name>
-            <url>http://65.0.19.53:8082/artifactory/libs-release-local/</url>
+            <url>http://13.201.131.44:8082/artifactory/libs-release-local/</url>
         </repository>
     
         <snapshotRepository>
             <id>snapshots</id>
             <name>libs-snapshot-local</name>
-            <url>http://65.0.19.53:8082/artifactory/libs-snapshot-local/</url>
+            <url>http://13.201.131.44:8082/artifactory/libs-snapshot-local/</url>
         </snapshotRepository>
     
     </distributionManagement>
