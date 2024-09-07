@@ -21,13 +21,13 @@
         <repository>
             <id>release</id>
             <name>libs-release-local</name>
-            <url>http://43.204.98.75:8082/artifactory/libs-release-local/</url>
+            <url>http://13.201.89.142:8082/artifactory/venky-libs-release/</url>
         </repository>
     
         <snapshotRepository>
             <id>snapshots</id>
             <name>libs-snapshot-local</name>
-            <url>http://43.204.98.75:8082/artifactory/libs-snapshot-local/</url>
+            <url>http://13.201.89.142:8082/artifactory/venky-libs-snapshot/</url>
         </snapshotRepository>
     
     </distributionManagement>
