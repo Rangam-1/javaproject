@@ -36,7 +36,7 @@ RUN mkdir -p /opt/tomcat/webapps/manager/META-INF && \
     echo '</Context>' >> /opt/tomcat/webapps/manager/META-INF/context.xml
 
 # Expose Tomcat port
-EXPOSE 8080
+EXPOSE 8083
 
 # Set the entrypoint to run Tomcat
 CMD ["/opt/tomcat/bin/catalina.sh", "run"]
