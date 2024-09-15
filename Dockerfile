@@ -14,7 +14,7 @@ RUN wget https://downloads.apache.org/tomcat/tomcat-9/v9.0.93/bin/apache-tomcat-
     rm apache-tomcat-9.0.93.tar.gz
 
 # Copy WAR file into the container (adjust the path as needed)
-COPY /var/lib/jenkins/workspace/First-Project/target/**.war /opt/tomcat/webapps/
+COPY /var/lib/jenkins/workspace/First-Project/target/c3opslmsapp.war /opt/tomcat/webapps/
 
 # Configure Tomcat user roles
 RUN sed -i '$d' /opt/tomcat/conf/tomcat-users.xml && \
